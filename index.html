@@ -8,26 +8,24 @@
     <title>E4_JS_FullStack</title>
 </head>
 <body>
+
     <section>
-        <form class="form" action="">   
-            <div>
-                <h1> Menú de Pizzas </h1>
-            </div>
-
-            <div>
-                <label for="number">Número de pizza:</label>
-                <input id="input" class="controls" type="number" name="number" placeholder="Ingresa un Valor">
-            </div>
-
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/1200px-International_Pok%C3%A9mon_logo.svg.png"
+          alt="" class="pokemon-logo" />
+        <div id="">    
+            <input id="input" class="controls" type="text" placeholder="Ingrese un Pokemon">                          
             <button id="btn"> Mostrar </button>
-
-    <!-- Acá se van a estar renderizando todas las pizzas -->
-            <div id="cards">
-
-            </div>
-        
-        </form>
-    </section>
+            <button id="btn-delete"> Borrar </button>
+        </div>
+        <div class="poke__container" id="caja"></div>
+        <div class="pokeballs-container">
+          <img src="./assets/pokeball.png" alt="pokebola" class="pokeball">
+          <img src="./assets/pokeball.png" alt="pokebola" class="pokeball">
+          <img src="./assets/pokeball.png" alt="pokebola" class="pokeball">
+        </div>
+    
+      </section>
 
 <script src="./main.js"></script>
 <script src="./assets/package/dist/sweetalert2.all.min.js"></script>
